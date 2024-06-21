@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Достопримечательности</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Достопримечательности</h1>
+    <nav>
+        <ul>
+            <li><a href="#" id="nav-home">Главная</a></li>
+            <li><a href="#" id="nav-attractions">Достопримечательности</a></li>
+            <li><a href="#" id="nav-contacts">Контакты</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="page" id="home-page">
+        <h2>Добро пожаловать на наш сайт!</h2>
+        <p>Этот проект создан для того, чтобы познакомить вас с самыми интересными достопримечательностями по всему миру. Вы сможете узнать об истории, архитектуре и культурном значении каждой из них.</p>
+        <p>Наш сайт будет полезен как для туристов, которые планируют свои путешествия, так и для любителей истории и архитектуры.</p>
+    </section>
+
+    <section class="page" id="attractions-page" style="display: none;">
+        <h2>Выберите достопримечательность:</h2>
+        <ul>
+            <li>
+                <a href="#" class="attraction-link" data-attraction-id="1">Эйфелева башня</a>
+            </li>
+            <li>
+                <a href="#" class="attraction-link" data-attraction-id="2">Колизей</a>
+            </li>
+            <li>
+                <a href="#" class="attraction-link" data-attraction-id="3">Статуя Свободы</a>
+            </li>
+            <!-- Добавьте больше ссылок на достопримечательности -->
+        </ul>
+    </section>
+
+    <section class="page" id="contacts-page" style="display: none;">
+        <h2>Запишитесь на экскурсию</h2>
+        <p>Позвоните нам по телефону: +7 (123) 456-78-90</p>
+        <p>Или напишите нам на email: info@attractions.com</p>
+    </section>
+
+    <section class="page" id="attraction-details" style="display: none;">
+        <h2 id="attraction-name"></h2>
+        <img id="attraction-image" src="" alt="">
+        <p id="attraction-description"></p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2023 Достопримечательности. Все права защищены.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
