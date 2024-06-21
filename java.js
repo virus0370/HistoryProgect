@@ -41,3 +41,4 @@ function showPage(page) {
 function hidePage(page) {
     page.style.display = 'none';
 }
+//ada
